@@ -8,7 +8,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 dotenv.config({ path: resolve(__dirname, "../.env") });
 
 const dishes = [
-  {
+  { 
     name: "Paneer Butter Masala",
     category: "North",
     price: 240,
